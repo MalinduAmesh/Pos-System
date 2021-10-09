@@ -15,6 +15,6 @@ public class CustomerForm {
         stm.setObject(2,customer.getName());
         stm.setObject(3,customer.getAddress());
         stm.setObject(4,customer.getContact());
-        return stm.executeUpdate() >0;
+        return stm.executeUpdate() > 0;
     }
 }
