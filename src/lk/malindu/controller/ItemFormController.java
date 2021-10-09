@@ -20,6 +20,12 @@ public class ItemFormController {
     public Button btnSave;
 
     public void btnSaveOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
+        String id = txtID.getText();
+        String size = txtSize.getText();
+        String price = txtPrice.getText();
+        String qty = txtQty.getText();
 
+        Item t1 = new Item( id,size,price,qty);
+         ItemForm.addItem(t1);
     }
 }
