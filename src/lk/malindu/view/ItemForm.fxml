@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="546.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.malindu.controller.ItemFormController">
+   <children>
+      <AnchorPane layoutX="-14.0" prefHeight="546.0" prefWidth="755.0">
+         <children>
+            <Label layoutX="325.0" layoutY="25.0" text="Item Add">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="141.0" prefHeight="31.0" prefWidth="64.0" text="ID" />
+            <Label layoutX="76.0" layoutY="212.0" prefHeight="31.0" prefWidth="64.0" text="pack Size" />
+            <Label layoutX="378.0" layoutY="141.0" prefHeight="31.0" prefWidth="82.0" text="Unit price" />
+            <Label layoutX="383.0" layoutY="220.0" prefHeight="31.0" prefWidth="64.0" text="Qty" />
+            <TextField fx:id="txtID" layoutX="182.0" layoutY="141.0" />
+            <TextField fx:id="txtSize" layoutX="175.0" layoutY="212.0" />
+            <TextField fx:id="txtPrice" layoutX="477.0" layoutY="141.0" />
+            <TextField fx:id="txtQty" layoutX="477.0" layoutY="220.0" />
+            <Button fx:id="btnSave" layoutX="460.0" layoutY="392.0" mnemonicParsing="false" onAction="#btnSaveOnAction" text="Save" />
+            <Button layoutX="571.0" layoutY="384.0" mnemonicParsing="false" text="Cancel" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
