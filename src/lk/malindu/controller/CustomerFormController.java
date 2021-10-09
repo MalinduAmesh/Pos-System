@@ -19,7 +19,15 @@ public class CustomerFormController {
 
 
     public void btnSave(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
+        String name = txtID.getText();
+        String id = txtName.getText();
+        String address = txtAddress.getText();
+        String contact = txtContact.getText();
 
+        Customer customer = new Customer(id,name,address,contact);
+
+        boolean isAdded = CustomerForm.addCustomer(customer);
+        JOptionPane.showMessageDialog(null,"Customer Create","",JOptionPane.INFORMATION_MESSAGE);
 
     }
 
