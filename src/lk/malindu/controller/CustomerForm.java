@@ -9,6 +9,7 @@ import java.sql.SQLException;
 
 public class CustomerForm {
 
+
     public static boolean addCustomer(Customer customer) throws SQLException, ClassNotFoundException {
         PreparedStatement stm = DBConnection.getInstance().getConnection().prepareStatement("Insert into customer Values(?,?,?,?)");
         stm.setObject(1,customer.getId());
