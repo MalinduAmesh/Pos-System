@@ -4,8 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="456.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.malindu.view.MainMenu">
+<AnchorPane prefHeight="456.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.malindu.view.MainMenu">
    <children>
       <AnchorPane prefHeight="456.0" prefWidth="682.0">
          <children>
@@ -24,6 +23,7 @@
                   <Font size="28.0" />
                </font>
             </Label>
+            <Label layoutX="541.0" layoutY="402.0" text="v1.0.0" />
          </children>
       </AnchorPane>
    </children>
